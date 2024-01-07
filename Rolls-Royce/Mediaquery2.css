@@ -22,7 +22,7 @@
 }
 @media screen and (max-width:619px){
     li a{
-        font-size: 10px !important;
+        font-size: 7px !important;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
