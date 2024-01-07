@@ -10,7 +10,20 @@
     .image3 img{
         width: 370px;
         border: 5px black solid;
-    } 
+    }
+    li a{
+        font-size: large !important;
+    }
+}
+@media screen and (min-width:620px) and (max-width:898px){
+    li a{
+        font-size: medium !important;
+    }
+}
+@media screen and (max-width:619px){
+    li a{
+        font-size: 10px !important;
+    }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .image1 img{

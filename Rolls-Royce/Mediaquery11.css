@@ -1,4 +1,7 @@
 @media screen and (min-width: 1025px){
+    li a{
+        font-size: large !important;
+    }
     .main img{
         margin: 30vh 35vw;
         width: 200px;
@@ -6,17 +9,18 @@
 }
 @media screen and (min-width:620px) and (max-width:898px){
     li a{
-        font-size: medium;
+        font-size: medium !important;
+    }
+}
+@media screen and (max-width:619px){
+    li a{
+        font-size: 10px !important;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .main img{
         margin: 30vh 35vw;
         width: 200px;
-    }
-}@media screen and (max-width:619px){
-    li a{
-        font-size: 10px;
     }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {

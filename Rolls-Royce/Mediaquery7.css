@@ -1,0 +1,15 @@
+@media screen and (min-width: 1025px){
+    li a{
+        font-size: large !important;
+    }
+}
+@media screen and (min-width:620px) and (max-width:898px){
+    li a{
+        font-size: medium !important;
+    }
+}
+@media screen and (max-width:619px){
+    li a{
+        font-size: 10px !important;
+    }
+}
