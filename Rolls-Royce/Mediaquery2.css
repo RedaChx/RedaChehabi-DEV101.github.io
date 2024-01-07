@@ -1,0 +1,80 @@
+@media screen and (min-width: 1025px){
+    .image1 img{
+        width: 310px;
+        border: 5px black solid;
+    }
+    .image2 img{
+        width: 290px;
+        border: 5px black solid;
+    }
+    .image3 img{
+        width: 370px;
+        border: 5px black solid;
+    } 
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .image1 img{
+        width: 290px;
+        border: 5px black solid;
+    }
+    .image2 img{
+        width: 250px;
+        border: 5px black solid;
+    }
+    .image3 img{
+        width: 290px;
+        border: 5px black solid;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .alpha , .beta , .gamma {
+        font-size: small;
+    }
+    .image1 img{
+        width: 190px;
+        border: 5px black solid;
+    }
+    .image2 img{
+        width: 150px;
+        border: 5px black solid;
+    }
+    .image3 img{
+        width: 190px;
+        border: 5px black solid;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 480px) {
+    .alpha , .beta , .gamma{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        font-size: xx-small;
+    }
+    .text1 , .text2 , .text3{
+        height: 60%;
+        width: 100%;
+        order: 2;
+        text-align: center;
+        padding: 0px;
+    }
+    .text1 , .text2 , .text3 h3{
+        padding: 5px;
+    }
+    .image1 , .image2 , .image3{
+        height: 40%;
+        width: 100%;
+        order: 1;
+    }
+    .image1 img{
+        width: 150px;
+        border: 5px black solid;
+    }
+    .image2 img{
+        width: 120px;
+        border: 5px black solid;
+    }
+    .image3 img{
+        width: 150px;
+        border: 5px black solid;
+    }
+}
