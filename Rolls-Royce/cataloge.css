@@ -96,6 +96,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     transition: opacity 0.3s ease-in-out;
     position: absolute; /* Position text over the background */
     top: 50%;

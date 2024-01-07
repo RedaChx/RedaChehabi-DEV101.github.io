@@ -1,0 +1,33 @@
+@media screen and (min-width: 1025px){
+    .main img{
+        margin: 30vh 35vw;
+        width: 200px;
+    }
+}
+@media screen and (min-width:620px) and (max-width:898px){
+    li a{
+        font-size: medium;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .main img{
+        margin: 30vh 35vw;
+        width: 200px;
+    }
+}@media screen and (max-width:619px){
+    li a{
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .main img{
+        margin: 30vh 35vw; 
+        width: 150px;
+    }
+}
+@media screen and (max-width: 480px){
+    .main img{
+        margin: 30vh 35vw; 
+        width: 100px;
+    }
+}

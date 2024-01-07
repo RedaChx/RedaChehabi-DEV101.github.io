@@ -40,7 +40,13 @@
         width: 33%;
         background-size: cover;
         background-position: center;
-    } 
+    }
+    .card-text a{
+        color: white;
+        text-decoration: none;
+        font-size: 60px;
+        font-weight: 200px;
+    }
 }
 @media screen and (max-width: 930px){
     
@@ -88,6 +94,12 @@
         background-size: cover;
         background-position: center;
     }
+    .card-text a{
+        color: white;
+        text-decoration: none;
+        font-size: 60px;
+        font-weight: 200px;
+    }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .card1{
@@ -131,6 +143,12 @@
         width: 45%;
         background-size: cover;
         background-position: center;
+    }
+    .card-text a{
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+        font-weight: 200px;
     }
 }
 @media screen and (min-width: 200px) and (max-width: 480px) {
@@ -182,5 +200,11 @@
         background-size: cover;
         background-position: center;
         margin-bottom: 5px;
+    }
+    .card-text a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 200px;
     }
 }

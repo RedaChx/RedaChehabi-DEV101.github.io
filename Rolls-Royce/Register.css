@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    height: 100dvh;
-    background-color: transparent;
+    height: 100vh;
+    background-color: rgb(222, 222, 222);
 }
 .header{
     height: 10%;
@@ -27,45 +27,32 @@ nav{
     width: 50%;
 }
 li a{
-    font-size: xx-large;
+    font-size: large;
 }
 .login{
     width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.login a{
+.login a {
     text-align: center;
     text-decoration: none;
     border: 3px black solid;
     border-radius: 30px;
     padding: 13px;
-    color: white;
-    background-color: blueviolet;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
-.login a:hover{
+
+.login a:hover {
     color: white;
-    text-decoration: underline;
+    background-color: black;
 }
 .main{
-    height: 85%;
-    background-color: rgb(222, 222, 222);
+    height: 90%;
     z-index: 2;
 }
-.image{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.image img{
-    padding: 30px;
-    width: 300px;
-}
-.footer{
-    height: 5%;
-    background-color: rgb(50, 48, 48);
-    z-index: 3;
-}
-.name{
-    height: 100%;
-    color: white;
+.main img{
+    width: 200px;
 }
